@@ -77,7 +77,7 @@ while(length(dim(boards)) > 2) {
       colSums(boards == "DRAWN") == 5L, 
       arr.ind = TRUE
     )
-    boards <- boards[, , -idx_which_col[2]]
+    boards <- boards[, , -idx_which_col[1, 2]]
     next
   }
   
