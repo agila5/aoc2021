@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 data/input[0-9]*.txt
+data/example[0-4]*.txt
